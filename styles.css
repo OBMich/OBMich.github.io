@@ -1,0 +1,80 @@
+html,body,div,span,h1,h2,h3,p,a,em,img,strong,article,section,header,footer,dl,dd,dt,table,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+table{border-collapse: collapse;border-spacing: 0;}
+
+@font-face {
+    font-family: 'linden_hillregular';
+    src: url('fonts/LindenHill-webfont.eot');
+    src: url('fonts/LindenHill-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/LindenHill-webfont.woff') format('woff'),
+         url('fonts/LindenHill-webfont.ttf') format('truetype'),
+         url('fonts/LindenHill-webfont.svg#linden_hillregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'linden_hillitalic';
+    src: url('fonts/LindenHill-Italic-webfont.eot');
+    src: url('fonts/LindenHill-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/LindenHill-Italic-webfont.woff') format('woff'),
+         url('fonts/LindenHill-Italic-webfont.ttf') format('truetype'),
+         url('fonts/LindenHill-Italic-webfont.svg#linden_hillitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'linden_hillregular', Times, Georgia, serif;
+	font-size: 18px;
+	line-height: 1.6rem;
+	color: #666;
+	background-color: #fefefe;
+}
+em { font-family: 'linden_hillitalic', Times, Georgia, serif; 
+	font-weight: normal; 
+	font-style:normal; 
+}
+
+header { border-bottom: 2px dotted #ccc; padding-bottom: 1.4rem; }
+
+h1 { 
+	padding: 1.6rem 0 0;
+	font-size: 2em;
+	line-height: 2.8rem; 
+}
+
+strong, h1, h2, h3 { color: #222; }
+
+h2, h3, p, ul {
+	margin: 1.6rem 0;
+}
+li { margin: 0.8rem 0; }
+
+h2 { margin-bottom: -1.6rem; }
+
+nav a:first-child { padding-left: 0; }
+nav a { padding: 2px 10px; color: #444; text-decoration: none; }
+
+footer { padding: 1.6rem; 
+		background: #444; 
+		color: #fff; 
+		text-align: center; 
+		margin-top: 3.2rem; }
+footer a { color: #fff; }
+
+.headshot { background: url(headshot.jpg) top left no-repeat; padding-left: 90px; }
+
+section img { width: 100%; height: auto; }
+
+@media (min-width: 440px) {
+	h1, nav, section {
+		width: 70%;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 440px) {
+	h1, nav, section {
+		width: 90%;
+		margin: 0 auto; 
+	}
+}
